@@ -9,7 +9,7 @@ Download the desktop application and get users registered. Set up an election an
 
 ## Contributing
 
-Thank you to Vitalis for actively contributing to the E-Voting development! 
+Thank you to Odikanwa Michael, Ekwedike Patrick and Aga Vitalis for actively contributing to the eVoting-System development! 
 
 ## Security Vulnerabilities
 
