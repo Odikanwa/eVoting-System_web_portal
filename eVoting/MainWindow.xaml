@@ -1,0 +1,28 @@
+﻿<Window x:Class="eVoting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eVoting"
+        mc:Ignorable="d"
+        Title="e-voting" Height="450" Width="800" WindowState="Maximized">
+    <Grid x:Name="Index">
+        <Grid.Background>
+            <ImageBrush ImageSource="images/vote2.jpg"/>
+        </Grid.Background>
+        <Grid.BindingGroup>
+            <BindingGroup/>
+        </Grid.BindingGroup>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="214*"/>
+            <ColumnDefinition Width="39*"/>
+            <ColumnDefinition Width="69*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="cast_vote" Grid.ColumnSpan="3" Content="CAST MY VOTE" Grid.Column="1" HorizontalAlignment="Center" Margin="400,310,37,28" VerticalAlignment="Center" Width="207" Height="81" FontFamily="Segoe UI Black" FontSize="15" FontWeight="Bold" FontStyle="Oblique" Background="#FFDC2A2A" Click="Cast_vote_Click"/>
+        <Button x:Name="register_users" Content="REGISTER VOTERS" HorizontalAlignment="Center" Margin="142,309,79,28" VerticalAlignment="Center" Width="207" Height="82" Click="Register_users_Click" Background="#FF0DFB23" BorderBrush="#FFCF5757" FontWeight="Bold" FontSize="15" FontFamily="Segoe UI Black" RenderTransformOrigin="0.699,-0.661" Grid.Column="1"/>
+        <Button x:Name="system_setup" Grid.ColumnSpan="2" Content="SYSTEM SETUP" HorizontalAlignment="Center" Height="80" Margin="43,311,334,28" VerticalAlignment="Center" Width="199"  FontWeight="Bold" FontSize="15" FontFamily="Segoe UI Black"  Click="System_setup_Click" />
+        <Button x:Name="election_results" Content="ELECTION RESULTS" HorizontalAlignment="Center" Margin="77,418,21,-81" VerticalAlignment="Center" Width="330" Height="82" Click="Election_results_Click" Background="#FF10B6D1" BorderBrush="#FFCF5757" FontWeight="Bold" FontSize="15" FontFamily="Segoe UI Black" RenderTransformOrigin="0.699,-0.661" Grid.Column="1"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="eVoting.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eVoting"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="450" Width="800" WindowState="Maximized">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="images\vote1.jpg"/>
+        </Grid.Background>
+        <Button x:Name="office_button" Content="OFFICES" HorizontalAlignment="Center" Height="60" Margin="470,89,72,270" VerticalAlignment="Center" Width="250" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09E813" Click="Office_button_Click" />
+
+        <Button x:Name="year_button" Content="YEAR" HorizontalAlignment="Center" Height="60" Margin="100,91,440,268" VerticalAlignment="Center" Width="250" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09E813" Click="Year_button_Click"/>
+        <Button x:Name="party_button" Content="PARTY" HorizontalAlignment="Center" Height="60" Margin="97,183,441,176" VerticalAlignment="Center" Width="254" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09E813" Click="Party_button_Click"/>
+        <Button x:Name="contestant_button" Content="CONTESTANT" HorizontalAlignment="Center" Height="60" Margin="470,181,71,178" VerticalAlignment="Center" Width="250" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09E813" Click="Contestant_button_Click" />
+        <Button x:Name="voters_button" Content="REGISTERED VOTERS" HorizontalAlignment="Center" Height="60" Margin="97,290,404,69" VerticalAlignment="Center" Width="291" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09E813" Click="Voters_button_Click" />
+        <Button x:Name="election_button" Content="MANAGE ELECTIONS" HorizontalAlignment="Center" Height="60" Margin="94,361,69,-2" VerticalAlignment="Center" Width="629" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09E813" Click="Election_button_Click" />
+        <Button x:Name="organization_button" Content="REGISTERED ORGANIZATIONS" HorizontalAlignment="Center" Height="60" Margin="431,290,68,69" VerticalAlignment="Center" Width="293" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09E813" Click="Organization_button_Click" />
+        <Button x:Name="log_out" Content="Back Home" Height="40" Margin="0,0,0,-1" VerticalAlignment="Bottom" Width="120" BorderBrush="{x:Null}" Foreground="#FF020815" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF0E6EB0" AutomationProperties.HelpText="This will close this session" Click="Log_out_Click" HorizontalAlignment="Left"/>
+        <Button x:Name="synchronize" Content="SYNCHRONIZE DATABASE" HorizontalAlignment="Center" Height="60" Margin="95,435,68,-76" VerticalAlignment="Center" Width="629" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09E813" Click="Synchronize_Click" />
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="eVoting.FingerReg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eVoting"
+        mc:Ignorable="d"
+        Title="Register Finger" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/vote1.jpg"/>
+        </Grid.Background>
+        <Button x:Name="capture" Content="Capture" HorizontalAlignment="Left" Height="60" Margin="85,285,0,0" VerticalAlignment="Top" Width="320" Click="Button_Capture_Click"/>
+        <Button x:Name="enroll" Content="Enroll" HorizontalAlignment="Left" Height="60" Margin="450,285,0,0" VerticalAlignment="Top" Width="295" Click="Enroll_Click"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="195" Margin="355,60,0,0" Stroke="Black" VerticalAlignment="Top" Width="395"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextAlignment="Center" Height="100" Margin="375,90,0,0" TextWrapping="Wrap" Text="Finger Sample Capture Process" VerticalAlignment="Top" Width="360"/>
+        <Border BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="185" Margin="105,65,0,0" VerticalAlignment="Top" Width="190">
+            <Image x:Name="PictureBox" Source="images/vote1.jpg" HorizontalAlignment="Center" Height="155" Margin="13" VerticalAlignment="Center" Width="160" Stretch="Fill"/>
+        </Border>
+        <TextBlock x:Name="textBlock_status" HorizontalAlignment="Center" Height="35" Margin="370,225,62,159" TextWrapping="Wrap" Text="Sample Capture Status" VerticalAlignment="Center" TextAlignment="Center" Width="360" FontWeight="Bold" Cursor="No"/>
+        <TextBox x:Name="introLabel" HorizontalAlignment="Left" Height="25" Margin="145,15,0,0" TextWrapping="Wrap" Text="Click, the Capture Button, and Place Your Finger on the FingerPrint Scanner" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" Width="500"/>
+        <Button x:Name="stop_capture" Content="Stop Capture!" HorizontalAlignment="Left" Height="45" Margin="85,355,0,0" VerticalAlignment="Top" Width="660" Click="Stop_capture_Click"/>
+
+    </Grid>
+</Window>

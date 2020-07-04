@@ -1,0 +1,108 @@
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\bin\Debug\eVoting.exe.config
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\bin\Debug\eVoting.exe
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\bin\Debug\eVoting.pdb
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting.csprojAssemblyReference.cache
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\MainWindow.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\App.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting_MarkupCompile.cache
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting_MarkupCompile.lref
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\MainWindow.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting.g.resources
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting.Properties.Resources.resources
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting.csproj.GenerateResource.cache
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting.csproj.CoreCompileInputs.cache
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting.exe
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting.pdb
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\bin\Debug\eVoting.exe.manifest
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\bin\Debug\eVoting.application
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting.exe.manifest
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting.application
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\Login.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\Login.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\VoterReg.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\VoterReg.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\Dashboard.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\YearReg.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\Dashboard.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\YearReg.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\PartyReg.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\PartyReg.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\OfficeReg.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\OfficeReg.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\ContestantReg.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\ContestantReg.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\MenuHeader.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\MenuHeader.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\Voters.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\Voters.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\OrganizationReg.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\OrganizationReg.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\ManageElections.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\ManageElections.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\VoteCastVerify.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\VoteCastVerify.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\VoteCast.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\VoteCast.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\ResultCast.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\ResultCast.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\Synchronize.g.cs
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\Synchronize.baml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ogbonna Vitalis\source\repos\eVoting\eVoting\obj\Debug\eVoting.csproj.CopyComplete
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\bin\Debug\eVoting.exe.config
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\bin\Debug\eVoting.exe.manifest
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\bin\Debug\eVoting.application
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\bin\Debug\eVoting.exe
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\bin\Debug\eVoting.pdb
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\ContestantReg.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\Dashboard.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\Login.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\MainWindow.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\ManageElections.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\MenuHeader.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\OfficeReg.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\OrganizationReg.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\PartyReg.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\ResultCast.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\Synchronize.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\VoteCastVerify.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\VoterReg.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\Voters.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\VoteCast.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\YearReg.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\App.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting_MarkupCompile.cache
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting_MarkupCompile.lref
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\ContestantReg.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\Dashboard.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\Login.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\MainWindow.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\ManageElections.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\MenuHeader.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\OfficeReg.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\OrganizationReg.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\PartyReg.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\ResultCast.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\Synchronize.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\VoteCastVerify.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\VoterReg.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\Voters.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\VoteCast.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\YearReg.baml
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting.g.resources
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting.Properties.Resources.resources
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting.csproj.GenerateResource.Cache
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting.exe.manifest
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting.application
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting.exe
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting.pdb
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting.csprojAssemblyReference.cache
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting.csproj.CoreCompileInputs.cache
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\eVoting.csproj.CopyComplete
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\FingerReg.g.cs
+C:\Users\Ogbonna Vitalis Pc\Desktop\eVoting\eVoting\obj\Debug\FingerReg.baml

@@ -1,0 +1,55 @@
+﻿<Window x:Class="eVoting.PartyReg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eVoting"
+        mc:Ignorable="d"
+        Title="PartyReg" Height="450" Width="800" WindowState="Maximized">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Ogbonna Vitalis\Downloads\vote-1804596_1920.jpg"/>
+        </Grid.Background>
+        <GroupBox Header="Select Row to Edit or Delete" HorizontalAlignment="Center" Height="407" Margin="349,-11,-155,23" VerticalAlignment="Center" Width="598"/>
+
+
+
+        <Border x:Name="party_reg_border" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="393" Margin="25,12,476,14" VerticalAlignment="Center" Width="291">
+            <Label x:Name="party_reg_label" Content="Register a Party" HorizontalAlignment="Center" Height="34" Margin="5,7,84,350" VerticalAlignment="Center" Width="200" Background="#FFFBF5F5" FontSize="14" FontWeight="Bold"/>
+        </Border>
+        <Button x:Name="party_reg_button" Content="Register Party" HorizontalAlignment="Center" Height="60" Margin="42,325,507,34" VerticalAlignment="Center" Width="249" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09E813" Click="Party_reg_button_Click"/>
+        <TextBox x:Name="party_name" HorizontalAlignment="Center" Height="45" Margin="42,65,502,309" TextWrapping="Wrap" Text="Party Name" VerticalAlignment="Center" Width="248" BorderThickness="3" Background="{x:Null}" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" SelectionBrush="#FFF1F3F5" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" TextAlignment="Center" Padding="10" />
+        <TextBox x:Name="party_slogan" HorizontalAlignment="Center" Height="45" Margin="42,133,502,241" TextWrapping="Wrap" Text="Party Slogan" VerticalAlignment="Center" Width="248" BorderThickness="3" Background="{x:Null}" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" SelectionBrush="#FFF1F3F5" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" TextAlignment="Center" Padding="10" />
+        <TextBox x:Name="party_mission" HorizontalAlignment="Center" Height="45" Margin="42,257,497,112" TextWrapping="Wrap" Text="Party Mission" VerticalAlignment="Center" Width="248" BorderThickness="3" Background="{x:Null}" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" SelectionBrush="#FFF1F3F5" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" TextAlignment="Center" Padding="10" />
+        <TextBox x:Name="party_vision" HorizontalAlignment="Center" Height="45" Margin="44,197,500,177" TextWrapping="Wrap" Text="Party Vision" VerticalAlignment="Center" Width="248" BorderThickness="3" Background="{x:Null}" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" SelectionBrush="#FFF1F3F5" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" TextAlignment="Center" Padding="10" />
+        <local:MenuHeader  Margin="-15,-1,7,0" VerticalAlignment="Top" Height="46">
+            <local:MenuHeader.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </local:MenuHeader.RenderTransform>
+        </local:MenuHeader>
+
+        <DataGrid x:Name="partyDataGrid" AlternatingRowBackground="#FFC4B0B0" AutoGenerateColumns="False" Margin="360,44,-131,135" Background="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Center" SelectionChanged="PartyDataGridSelectionChanged" Height="240" Width="563">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding id}" Width="100" Header="Party ID" Foreground="#FF4CE613" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding party_name}" Width="100" Header="Party"/>
+                <DataGridTextColumn Binding="{Binding party_slogan}" Width="100" Header="Party Slogan"/>
+                <DataGridTextColumn Binding="{Binding party_mission}" Width="100" Header="Party Mission"/>
+                <DataGridTextColumn Binding="{Binding party_vision}" Width="100" Header="Party Vision"/>
+                <DataGridTextColumn Binding="{Binding certified}" Width="100" Header="Certified"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="party_reg_button_edit" Content="Edit Party" HorizontalAlignment="Center" Height="34" Margin="662,348,24,37" VerticalAlignment="Center" Width="106" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09ABE8" Click="edit_button_Click" RenderTransformOrigin="0.236,0.632"/>
+        <Label x:Name="selected_item_label" Content="No Selection Made" HorizontalAlignment="Center" Height="26" Margin="523,302,41,91" VerticalAlignment="Center" Width="228" BorderBrush="#FFEE2828" HorizontalContentAlignment="Center"  Background="#FFEEDEDE" Foreground="Black" FontSize="12"/>
+        <Button x:Name="party_reg_button_delete" Content="Delete Party" HorizontalAlignment="Center" Height="36" Margin="364,347,322,36" VerticalAlignment="Center" Width="106" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FFE83209" Click="delete_button_Click" RenderTransformOrigin="0.41,0.707"/>
+        <Button x:Name="uncertify_button" Content="UnCertified Party" HorizontalAlignment="Center" Height="36" Margin="498,347,158,36" VerticalAlignment="Center" Width="136" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF7585E4" Click="uncertify_button_Click"/>
+        <Button x:Name="certify_button" Content="Certify Party" HorizontalAlignment="Center" Height="36" Margin="794,346,-108,37" VerticalAlignment="Center" Width="106" BorderBrush="#FFEFF2F9" Foreground="#FFEFF2F9" FontSize="16" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF09E809" Click="certify_button_Click" RenderTransformOrigin="0.41,0.707"/>
+
+
+
+    </Grid>
+</Window>

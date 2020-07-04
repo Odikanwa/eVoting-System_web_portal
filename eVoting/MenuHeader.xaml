@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="eVoting.MenuHeader"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:eVoting"
+             mc:Ignorable="d" d:DesignWidth="801.692" Height="auto" Background="Transparent" BorderBrush="Transparent" BorderThickness="0">
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Menu Height="38" Name="top_menu" Margin="0,0,0,0" VerticalAlignment="Top" BorderThickness="2" Foreground="White" FontSize="16" FontWeight="Bold" HorizontalAlignment="Stretch">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FF3A60AD" Offset="0.528" />
+                    <GradientStop Color="#FF6A85D8" Offset="0.01" />
+                    <GradientStop Color="#FF3464C4" Offset="1" />
+                    <GradientStop Color="#FF202E7E" Offset="1" />
+                </LinearGradientBrush>
+            </Menu.Background>
+            <Menu.BitmapEffect>
+                <DropShadowBitmapEffect />
+            </Menu.BitmapEffect>
+            <MenuItem Header="Home" IsCheckable="true" Click="Home_Click">
+              
+            </MenuItem>
+            <MenuItem Header="Year" IsCheckable="true" Click="Year_Click" Foreground="Orange" FontSize="16">
+                
+            </MenuItem>
+            <MenuItem Header="Organizations" IsCheckable="true" Click="Organizations_Click" Foreground="Orange" FontSize="16"/>
+            <MenuItem Header="Offices" IsCheckable="true" Click="Offices_Click" Foreground="Orange" FontSize="16"/>
+
+            <MenuItem Header="Contestants" IsCheckable="true" Click="Contestants_Click" Foreground="Orange" FontSize="16">
+                
+            </MenuItem>
+            <MenuItem Header="Parties" IsCheckable="true" Click="Parties_Click" Foreground="Orange" FontSize="16">
+
+            </MenuItem>
+
+            <MenuItem Header="Voters" IsCheckable="true" Foreground="Orange" Click="Voters_Click" FontSize="16">
+
+            </MenuItem>
+            <Separator />
+            <Separator />
+        </Menu>
+        <Button x:Name="current_user" Content="Welcome Vitalis" Height="35" Margin="0,-10,81,0" VerticalAlignment="Bottom" Width="150" BorderBrush="{x:Null}" Foreground="#FF020815" FontSize="12" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF0E6EB0" AutomationProperties.HelpText="This will close this session" Click="Log_out_Click" HorizontalAlignment="Right" Grid.RowSpan="1" RenderTransformOrigin="0.488,0.343"/>
+        <Button x:Name="log_out" Content="Log Out" Height="35" Margin="0,-10,0,0" VerticalAlignment="Bottom" Width="82" BorderBrush="{x:Null}" Foreground="#FF020815" FontSize="12" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF0E6EB0" AutomationProperties.HelpText="This will close this session" Click="Log_out_Click" HorizontalAlignment="Right" Grid.RowSpan="1" RenderTransformOrigin="0.488,0.343"/>
+
+
+
+    </Grid>
+
+</UserControl>

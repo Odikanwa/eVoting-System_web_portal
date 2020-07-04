@@ -1,0 +1,26 @@
+﻿<Window x:Class="eVoting.ResultCast"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eVoting"
+        mc:Ignorable="d"
+        Title="Election Results" Height="450" Width="800"  WindowState="Maximized">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="images\results.png"/>
+        </Grid.Background>
+
+        <GroupBox Header="" HorizontalAlignment="Center" Height="535" Margin="155,10,12,-126" VerticalAlignment="Center" Width="625"/>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="3,100,-3,64" Height="250">
+            <WrapPanel x:Name="CenterMain"  HorizontalAlignment="Center" Margin="235,100,87,84" VerticalAlignment="Center" Orientation="Horizontal" Width="550" />
+        </ScrollViewer>
+        <StackPanel x:Name="LeftSidebar"  HorizontalAlignment="Left" Margin="18,15,0,0" VerticalAlignment="Top" Background="#FFE8DBDB">
+            <Button x:Name="offices" Content="Select An Office To View Results" Width="200" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF1CCB0A" FontWeight="Bold" Click="Offices_Click" />
+        </StackPanel>
+        <Label  x:Name="display" Content="Summary for Nuesa Elections, Office of the President" HorizontalContentAlignment="Center" Height="35" Margin="195,50,47,334" VerticalAlignment="Center" Width="550" Background="#FFDC6969" FontSize="14" FontWeight="Bold" HorizontalAlignment="Center"/>
+        <Button x:Name="log_out" Content="Back Home" Height="40" Margin="0,0,0,-1" VerticalAlignment="Bottom" Width="120" BorderBrush="{x:Null}" Foreground="#FF020815" FontSize="14" FontFamily="Segoe UI Emoji" FontWeight="Bold" Background="#FF0E6EB0" AutomationProperties.HelpText="This will close this session" Click="Log_out_Click" HorizontalAlignment="Left"/>
+
+    </Grid>
+</Window>
